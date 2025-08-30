@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "E3_HACKER_MD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK1A3TTd2bG9jQXZ2dUsyQWo4a2hiZnhhUGl0Q2NqZU9yU3U4YmRrRGtXWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWi9xQkVtdWJlQkFHY1BSdW1tZDRlRlcyem9DTjFqbVVuYjBtc0IyVHAwRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjS1Jpb3U4TnRIWGtOYkZxenprY2ZIQVpCUXNkOXRFMXo2SmY4TjdYTVVnPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJwbVVvQUFsNXFmL0FTN05KekZzdi9kc1FPZ2czNk92VHlFa0oxWHZWYVJZPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1EQndQSFE1SjBTTUUrWGNvZ1FNTHp3QmZnZnhtd1FURFBCNmNjVHNEV2c9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ims1M3VBdzBYTTViUTYyakNuck5NWmcvUVA3TUZxQVhlTlVyanNEcGYzVGc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ1Bwd0pvN1hIWTh6Zm5iRldkbTMxYi9SOFJVSktpRThnZVBjUHJUSkowRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZ3VXZzM4UEtFOUt1UWpOUU5BcjRXY1VKUWJ4WFZGOWNBa2dndW9PQkdDVT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjFkUW9ra3RScDFYTTlSbmw5WjkvakNGQStza2NYVW9hMHRybmZORzFyUW1HUVpYcG9IMTNBRmdlejJGM0JRZFYvbUtOL01zUFpPa3RqM2JkeUpONmlBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTQzLCJhZHZTZWNyZXRLZXkiOiJ4OHpheEo5bmhtWFVPa1Brc2VOYUpyc3d4UjVFcjArM2pUb1NqcjcxOUdVPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiJWRDYxOUtNQiIsIm1lIjp7ImlkIjoiODgwMTMxMjgzMTk1MToyMUBzLndoYXRzYXBwLm5ldCIsImxpZCI6IjE0ODE1NTM2NjY3ODcyMDoyMUBsaWQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ05qVmdkd0VFS0RWd01VR0dBTWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IlduODh5Sy81NTZibzM2eU1DVGhoMDJSOVJMZDNUTzh1OEhQckhnaElnSEk9IiwiYWNjb3VudFNpZ25hdHVyZSI6IlA0bzNYWTFscDRsUlprSkhuMEprdUlRS3lFN2duRUxjcG55YTZsT2pIb0h1ZjIvRVRoMUdDSlZKMjhzVHoxbmh4REEzQnlwc21GSXBNaVdaRUVGREJ3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiI4MWQyTzFwY09yYVJwOVlOZUx2UnF0dEpxbk5qOVh1V0d6V3Z0TXl5SWpIR1pJYVJxRGU1OU5nckloZUFRbmg3dHRPSlU1dUd0TDI3dmhLSFlXQ21nUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6Ijg4MDEzMTI4MzE5NTE6MjFAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVnAvUE1pditlZW02TitzakFrNFlkTmtmVVMzZDB6dkx2Qno2eDRJU0lCeSJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsInJvdXRpbmdJbmZvIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0FJSUNBPT0ifSwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzU2Mzc1NzE1LCJsYXN0UHJvcEhhc2giOiIyVjc3cVUiLCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUV1bSJ9",
+SESSION_ID: process.env.SESSION_ID || "E3_HACKER_MD~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0JocklJMmJmM2dUTWJ0bTJBNGI2elovd29xVksvK0kzYzFsTElrN1hsST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidDNsa3ExSjRZWEdROU0vTmxXMVRRYmZnTTdKZHFkWWZMeEg5THpQZERraz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJFRlZRQlpHUFlUSm5nMXNQODlUUjR4NXlRSXR1bGlUL2FRQmIycnNkeG1nPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJpTkk5WjhxZlY5S1BrVVFNS3F2dHR2ekRNQWcvSEN1MEFaY0JDanJRUkgwPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IldDYzRDbnN4eWNaYlpEN3dqQk5pM3pQemhQQTM2SnhETTZqUEpVWCsvMzA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFkSmM2MU9KR3FPYWdPZG1vRXczbGxDYUlJNjVSWFFzNnBCTU50cDZJV3c9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRUJUTDc3V3JFWUVjaThQRDh4S3AweTdWYXlXcmY1UnA4RjA1L0ZRd01Wcz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiL3VLdG4vcWdHeVRFVVhrcTVUQXBqOUFMUXlyTXNGQTQzRnExcG9ocGhFaz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InNXV05ZYU5Qby9saEQwQ2NsbjgrSkFxOHQ1MEptR2k2LzJsaERmc1NsZ29sOXpPbUZRK2Z2SElZMFc3L0I1dHFieHZoLzNKTVNmTXhKNmR6NnR2R0JnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTY1LCJhZHZTZWNyZXRLZXkiOiJFc1NTa1VjczJucnhYQlQyUHZ3MGhWRUhKZjVaSXdRa05iNGlBYnFHdEJVPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiJWV1hSTjVGNCIsIm1lIjp7ImlkIjoiNTA5NDMzMzQ3MzM6MjVAcy53aGF0c2FwcC5uZXQiLCJsaWQiOiIyNzA4NzEzMjMyMzAzNDY6MjVAbGlkIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNPbnp0dkFCRUpEWHpNVUdHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJQamVoRWZ1K3BlMS83T2o3NS94TkJpWlhPeFMrRFVPSXN6dnNQRExGWFFRPSIsImFjY291bnRTaWduYXR1cmUiOiI0Q0l0TXViY2F1ZW5saExOcXBWTkI3S0JubWRMbzN4MDVRRUg3K1FuQW1KUGViWjRrd2dvd0VKWUtjMGRDVFQxVGd4a1BTOUdDWElSK2RRWlFlaGpBUT09IiwiZGV2aWNlU2lnbmF0dXJlIjoiQ0RCekdVTTBlejI1cFFhUytJdWQ3cFpKOUNCVjIrSktlKzUyNUxvaDVpWHVldFRZT2dXTHRJbGlOallpR2x3YkkxaFdnZkZJWmtnU2ZKTFAvZzI1REE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI1MDk0MzMzNDczMzoyNUBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJUNDNvUkg3dnFYdGYrem8rK2Y4VFFZbVZ6c1V2ZzFEaUxNNzdEd3l4VjBFIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwicm91dGluZ0luZm8iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQVVJQ0E9PSJ9LCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3NTY1NzI1NjMsImxhc3RQcm9wSGFzaCI6IjJQMVloZiIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBRXVMIn0=",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -29,11 +29,11 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/iyudhj.jpg",
 // add custom menu and mention reply image url
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "*",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "E3_HACKER_MD",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "𝙀3-𝙃𝘼𝘾𝙆𝙀𝙍,-𝙈𝘿",
+STICKER_NAME: process.env.STICKER_NAME || "C D M",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react    
@@ -41,9 +41,9 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923495178663",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50943334733",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "*E3-HACKER-MD Official*",
+OWNER_NAME: process.env.OWNER_NAME || "LORDDEMONDARKSEID",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ E3-HACKER-MD Official ❣️*",
 // add bot owner name    
@@ -57,9 +57,9 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
@@ -67,16 +67,16 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923237045919",
+DEV: process.env.DEV || "50943334733",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
 // make it true for auto recoding 
 };
